@@ -1,5 +1,5 @@
 
-# ZUMI API
+# ZUMI App
 
 This is a deployment repo for Kalio Sobomabo technical assesment. This is the application frontend.
 
