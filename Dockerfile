@@ -13,5 +13,8 @@ RUN npm install
 # copy other project files
 COPY . .
 
+# connect to external port 3001
+EXPOSE 3000
+
 # build the folder
 CMD [ "npm", "run", "start" ]
