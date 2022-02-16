@@ -1,0 +1,13 @@
+.sidebarContainer{
+  position: relative;
+  width: 100%;
+  max-width: 250px;
+  height: 100%;
+  padding: 15px 0px;
+  margin: 0px;
+  border-right: 1px solid #e1e1e1;
+}
+
+.sidebarContainer .list-group .list-group-item.active{
+  background-color: #4285f4
+}
