@@ -6,21 +6,21 @@ This is a deployment repo for Kalio Sobomabo technical assesment. This is the ap
 
 ## Deployment
 
-To deploy the API locally please follow the steps below:
+To deploy the frontend app locally please follow the steps below:
 
 ```bash
   git clone https://github.com/sobomabo/zumi_app.git
 ```
-A **zumi_api** directory will be created  with a docker-compose.yml file inside.
+A **zumi_app** directory will be created.
 
-Change into the zumi_deployment directory, and run the command below:
+Change into the zumi_app directory, and run the command below:
 
 ```bash
   npm install
 ```
-This is install all the project depencencies
+To install all the frontend depencencies
 
 ```bash
   npm run start
 ```
-This is will spin up an instance of the app ready. The frontend is exposed to port 3000.
+This is will spin up an instance of the frontend app, the frontend is exposed on port 3000.
